@@ -33,7 +33,7 @@ const Container = styled.div`
 function Login() {
 	const handleClick = () => {
 		const clientId = "6713ec148e3847fa9d0be3b3b09566e3";
-		const redirectURL = "http://localhost:3000/";
+		const redirectURL = "https://spotify-clone-by-sahil.vercel.app/";
 		const apiURL = "https://accounts.spotify.com/authorize";
 		const scope = [
 			"user-read-email",
